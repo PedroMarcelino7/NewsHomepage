@@ -58,6 +58,7 @@ img {
     color: hsl(36, 100%, 99%);
     margin-bottom: 10px;
     cursor: pointer;
+    transition: all 0.3s;
 }
 
 .news_container h3:hover {
@@ -80,6 +81,49 @@ img {
     margin-top: 2rem;
 }
 
-.other_news {
+.other_news_container {
     margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+}
+
+.other_news {
+    display: flex;
+}
+
+.other_news figure {
+    margin-right: 1.5rem;
+}
+
+.other_news figure img {
+    width: 100px;
+}
+
+.other_news div {
+    margin: 0;
+}
+
+.other_news div h2 {
+    color: hsl(233, 8%, 79%);
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.other_news div h3 {
+    color: hsl(240, 100%, 5%);
+    margin-bottom: 10px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.other_news div h3:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+.other_news div p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: hsl(236, 13%, 42%);
 }

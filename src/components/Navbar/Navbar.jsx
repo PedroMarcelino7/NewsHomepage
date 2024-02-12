@@ -11,8 +11,8 @@ export default function Navbar() {
                 <img src={Logo} alt="Logo" />
             </div>
 
-            <div>
-                <img src={Menu} alt="Menu" />
+            <div className={styles.menu_container}>
+                <img className={styles.menu} src={Menu} alt="Menu" />
             </div>
         </nav>
     )

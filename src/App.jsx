@@ -3,6 +3,9 @@ import Navbar from './components/Navbar/Navbar'
 
 import MainImageMobile from './assets/images/image-web-3-mobile.jpg'
 import MainImageDesktop from './assets/images/image-web-3-desktop.jpg'
+import RetroPC from './assets/images/image-retro-pcs.jpg'
+import TopLaptops from './assets/images/image-top-laptops.jpg'
+import GamingGrowth from './assets/images/image-gaming-growth.jpg'
 
 function App() {
   return (
@@ -53,9 +56,11 @@ function App() {
           </div>
         </section>
 
-        <section className={styles.other_news}>
-          <div>
-            <img src="" alt="" />
+        <section className={styles.other_news_container}>
+          <div className={styles.other_news}>
+            <figure>
+              <img src={RetroPC} alt="" />
+            </figure>
 
             <div>
               <h2>01</h2>
@@ -66,8 +71,10 @@ function App() {
             </div>
           </div>
 
-          <div>
-            <img src="" alt="" />
+          <div className={styles.other_news}>
+            <figure>
+              <img src={TopLaptops} alt="" />
+            </figure>
 
             <div>
               <h2>02</h2>
@@ -78,8 +85,10 @@ function App() {
             </div>
           </div>
 
-          <div>
-            <img src="" alt="" />
+          <div className={styles.other_news}>
+            <figure>
+              <img src={GamingGrowth} alt="" />
+            </figure>
 
             <div>
               <h2>03</h2>
