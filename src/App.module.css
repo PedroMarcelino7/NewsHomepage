@@ -14,7 +14,7 @@ img {
 
 .headline {
     font-size: 2.6rem;
-    font-weight: 800;
+    font-weight: 900;
     line-height: 2.5rem;
     color: hsl(240, 100%, 5%)
 }
@@ -78,4 +78,8 @@ img {
 
 .news_container div {
     margin-top: 2rem;
+}
+
+.other_news {
+    margin-top: 3.5rem;
 }
