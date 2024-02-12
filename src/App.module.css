@@ -35,4 +35,47 @@ img {
     padding-inline: 2rem;
     letter-spacing: 0.25rem;
     margin-top: 1.5rem;
+    cursor: pointer;
+    transition: all 0.35s;
+}
+
+.button:hover {
+    background-color: hsl(240, 100%, 5%);
+}
+
+.news_container {
+    background-color: hsl(240, 100%, 5%);
+    padding: 1.5rem;
+    margin-top: 3.5rem;
+}
+
+.news_container h2 {
+    color: hsl(35, 77%, 62%);
+    font-size: 2rem;
+}
+
+.news_container h3 {
+    color: hsl(36, 100%, 99%);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.news_container h3:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+.news_container p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: hsl(233, 8%, 79%);
+}
+
+.divisor {
+    height: 1px;
+    background-color: hsl(236, 13%, 42%);
+}
+
+.news_container div {
+    margin-top: 2rem;
 }
